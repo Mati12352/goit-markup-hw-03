@@ -1,6 +1,7 @@
 body{
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
+    background-color: #ffffff;
 }
 ul{
     list-style-type:none;
@@ -15,11 +16,20 @@ footer{
 .logo{
     font-family: "Raleway", sans-serif;
     font-size: 18px;
+    font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    line-height: 1.17;
+    color: #4d5ae5;
+}
+.logo:hover, .logo:focus{
+    color: #404bbf;
 }
 .logo .bluepart{
     color: #4D5AE5;
+}
+.logo .bluepart{
+    color: #2e2f42;
 }
 .menu{
         font-weight: 500;
@@ -31,10 +41,13 @@ footer{
 color: #4d5ae5;
 }
 .contacts{
+font-style: normal;
 color: inherit;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .contacts:hover, .contacts:focus{
-    color: #4D5AE5;
+    color: #404bbf;
 }
 .solutions{
     background-color: #2E2F42;}
@@ -43,20 +56,24 @@ color: inherit;
             font-size: 56px;
             line-height: 1.07;
             letter-spacing: 0.02em;
-            text-align: center;
             color: #fff;
     }
     .order{
-            padding: 16px 32px;
-            width: 169px;
+        font-family: "Roboto", sans-serif;    
+        width: 169px;
             height: 56px;
             color:#fff;
             background-color: #4D5AE5;
             font-weight: 500;
-            text-align: center;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            cursor: pointer;
     }
     .order:hover, .order:focus{
 background-color: #404BBF;
+    }
+    .features-list{
+        background-color: #FFFFFF;
     }
     .features{
             font-weight: 500;
@@ -64,6 +81,10 @@ background-color: #404BBF;
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: #2E2F42;
+    }
+    .features .description{
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
     .team{
         background-color: #F4F4FD;
@@ -74,16 +95,27 @@ background-color: #404BBF;
             line-height: 111%;
             letter-spacing: 0.02em;
             text-transform: capitalize;
+            text-align: center;
             color: #2E2F42;
     }
     .name{
             font-weight: 500;
             font-size: 20px;
-            line-height: 1.2;
+            line-height: 1.5;
             letter-spacing: 0.02em;
             color: #2E2F42;
     }
+    .appname {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #2E2F42;}
     .logo .whitepart{
         color:#F4F4FD;
+    }
+    .footer-text{
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
         
