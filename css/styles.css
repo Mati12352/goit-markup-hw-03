@@ -22,6 +22,12 @@ footer{
     line-height: 1.17;
     color: #4d5ae5;
 }
+.secondpart{
+    color: #2e2f42;
+}
+.secondpart:hover, .secondpart:focus{
+    color: #404bbf;
+}
 .logo:hover, .logo:focus{
     color: #404bbf;
 }
@@ -103,7 +109,7 @@ background-color: #404BBF;
     }
     .description{
         line-height: 1.5;
-        letter-spacing: 0.02em,
+        letter-spacing: 0.02em;
     }                        
     .appname {
             font-weight: 500;
@@ -113,6 +119,9 @@ background-color: #404BBF;
             color: #2E2F42;}
     .whitepart{
         color:#F4F4FD;
+    }
+    .whitepart:hover, .whitepart:focus{
+        color: #404bbf;
     }
     .footer-text{
         line-height: 1.5;
