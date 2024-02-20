@@ -60,7 +60,7 @@ footer{
     text-align: center;
     color: #fff;
     }
-    .order{
+    .service{
     font-family: "Roboto", sans-serif;    
     color:#fff;
     background-color: #4D5AE5;
@@ -69,7 +69,7 @@ footer{
     letter-spacing: 0.04em;
     cursor: pointer;
     }
-    .order:hover, .order:focus{
+    .service:hover, .service:focus{
     background-color: #404BBF;
     }
     .features-list{
