@@ -25,13 +25,6 @@ footer{
 .secondpart{
     color: #2e2f42;
 }
-.secondpart:hover, .secondpart:focus{
-    color: #404bbf;
-}
-.logo:hover, .logo:focus{
-    color: #404bbf;
-}
-
 .menu{
     font-weight: 500;
     line-height: 1.5;
@@ -43,6 +36,8 @@ footer{
 }
 .contacts{
     font-style: normal;
+}
+.contacts-link{
     color: inherit;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -52,13 +47,13 @@ footer{
 }
 .solutions{
     background-color: #2E2F42;}
-    .title{
+    .header{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
+    color: #FFFFFF;
     }
     .service{
     font-family: "Roboto", sans-serif;    
@@ -88,7 +83,7 @@ footer{
     .team{
     background-color: #F4F4FD;
     }
-    .team-title{
+    .title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -120,9 +115,6 @@ footer{
     color: #2E2F42;}
     .whitepart{
     color:#F4F4FD;
-    }
-    .whitepart:hover, .whitepart:focus{
-    color: #404bbf;
     }
     .footer-text{
     line-height: 1.5;
