@@ -223,7 +223,6 @@ section.solutions div{
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
     }
     .function{
     line-height: 1.5;
@@ -241,6 +240,7 @@ section.solutions div{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
     }
     .whitepart{
     color:#F4F4FD;
