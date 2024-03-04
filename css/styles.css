@@ -206,7 +206,7 @@ section.solutions div{
         margin: 0;
         flex-wrap: wrap;
         column-gap: 24px;
-        row-gap: 60px;
+        row-gap: 48px;
         width: calc(100% - (48px)/3);
     }
     .portfolio-item{
@@ -218,12 +218,17 @@ section.solutions div{
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px,
     }
     .function{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    }                      
+    }          
+    .app{
+    padding: 32px 16px,
+    border: 1px solid #e7e9fc;
+    }            
     .appname {
     font-weight: 500;
     font-size: 20px;
