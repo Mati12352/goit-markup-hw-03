@@ -207,7 +207,7 @@ section.solutions div{
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
-        width: calc(100% - (48px)/3);
+        width: calc((100% - 48px)/3);
     }
     .portfolio-item{
     background-color: #FFFFFF;
