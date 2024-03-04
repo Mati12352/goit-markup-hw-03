@@ -143,7 +143,6 @@ section.solutions div{
     width: 1px;
     height: 1px;
     margin: -1px;
-    margin-bottom: 72px;
     border: 0;
     padding: 0;
     white-space: nowrap;
@@ -162,10 +161,11 @@ section.solutions div{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
     }
     .features-item{
     width: calc((100% - 72px)/4);
-    border-radius: 0px 0px 4px 4px;
+    
     }
     .list{
     background-color: #FFFFFF;
@@ -186,7 +186,7 @@ section.solutions div{
     text-transform: capitalize;
     text-align: center;
     color: #2E2F42;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
     }
     .name{
     font-weight: 500;
